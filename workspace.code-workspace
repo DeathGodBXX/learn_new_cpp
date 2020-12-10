@@ -1,0 +1,60 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "algorithm": "cpp",
+            "type_traits": "cpp",
+            "initializer_list": "cpp",
+            "*.tcc": "cpp",
+            "tuple": "cpp",
+            "random": "cpp",
+            "functional": "cpp",
+            "numeric": "cpp",
+            "vector": "cpp",
+            "string": "cpp",
+            "unordered_map": "cpp",
+            "string_view": "cpp",
+            "ratio": "cpp",
+            "streambuf": "cpp",
+            "array": "cpp",
+            "atomic": "cpp",
+            "bit": "cpp",
+            "cctype": "cpp",
+            "chrono": "cpp",
+            "clocale": "cpp",
+            "cmath": "cpp",
+            "cstdarg": "cpp",
+            "cstddef": "cpp",
+            "cstdint": "cpp",
+            "cstdio": "cpp",
+            "cstdlib": "cpp",
+            "ctime": "cpp",
+            "cwchar": "cpp",
+            "cwctype": "cpp",
+            "deque": "cpp",
+            "map": "cpp",
+            "exception": "cpp",
+            "iterator": "cpp",
+            "memory": "cpp",
+            "memory_resource": "cpp",
+            "optional": "cpp",
+            "system_error": "cpp",
+            "utility": "cpp",
+            "fstream": "cpp",
+            "iosfwd": "cpp",
+            "iostream": "cpp",
+            "istream": "cpp",
+            "limits": "cpp",
+            "new": "cpp",
+            "ostream": "cpp",
+            "sstream": "cpp",
+            "stdexcept": "cpp",
+            "thread": "cpp",
+            "typeinfo": "cpp"
+        }
+    }
+}
