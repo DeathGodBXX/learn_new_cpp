@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/deathgod/GO/src/main.o",
+            "program": "/home/deathgod/SourceCode/CPP/main.o",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
