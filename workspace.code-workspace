@@ -54,7 +54,8 @@
             "sstream": "cpp",
             "stdexcept": "cpp",
             "thread": "cpp",
-            "typeinfo": "cpp"
+            "typeinfo": "cpp",
+            "variant": "cpp"
         }
     }
 }
