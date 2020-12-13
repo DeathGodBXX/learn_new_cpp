@@ -8,6 +8,9 @@ PARAMS = -std=c++2a
 touch:
 	touch main.cpp
 
+check:
+	valgrind --tool=memcheck --leak-check=yes --show-reachable=yes ./main.o
+
 compile:	
 	$(CXX) $(SOURCE_CPP) -o $(TARGET) $(PARAMS)
 

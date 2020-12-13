@@ -6,6 +6,8 @@
 $ clang++ compare.cpp -o a.out -std=c++2a
 $ objdump a.out -t > result.out    #观察符号对照表(函数对照调用)
 $ objdump a.out -d > result1.out   #观察执行sections的汇编语句(简化版)
+$ objdump -d main.o -Matt > main_att.asm # 也是默认AT&T汇编风格的汇编码（带有百分号）
+$ objdump -d main.o -mi386:x86-64:intel > main_intel.asm # intel风格的汇编码 (无百分号)
 ```
 
 &emsp;&emsp;观察 result.out 的 61 和 67 行，
