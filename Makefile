@@ -1,4 +1,4 @@
-PWD = /home/deathgod/SourceCode/CPP/src
+PWD = /home/deathgod/SourceCode/CPP/
 C = clang
 CXX = clang++
 SOURCE_CPP = main.cpp
