@@ -4,8 +4,6 @@ cpp 11/14/17/20 new characters
 
 [现代 c++](https://changkun.de/modern-cpp/zh-cn/02-usability/index.html#%E7%B1%BB%E5%9E%8B%E5%88%AB%E5%90%8D%E6%A8%A1%E6%9D%BF)
 
-
-
 ## 汇编
 
 汇编指令寻址方式:
@@ -37,9 +35,7 @@ rip 存放cpu指令地址，通过displacement(%rip)
 nop 用于内存对齐
 ```
 
-
-
-## GDB常用调试命令
+## GDB 常用调试命令
 
 gdb 调试文件名(必须使用`-g` 编译过的可执行文件，例如：`clang++ -g main.cpp -o main.o -std=c++2a`)
 
@@ -71,8 +67,7 @@ gdb调试常用命令
  (gdb) si               // 一条指令一条指令调试 而 s 是一行一行代码
  (gdb) info registers         // 显示所有寄存器的当前值
  (gdb) x/20 $esp           //查看内存中开始的20个数
+ (gdb) x/1db addr         //addr存储的一个10进制1字节表示的值
 ```
-
-
 
 problem:如何查看变量被分配到了堆栈，静态区？
