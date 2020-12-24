@@ -19,6 +19,7 @@ int main()
     std::cout << std::endl;
 }
 
+
 void mono_stack(std::array<int, 10> const &arr, std::array<int, 10> &res)
 {
     std::stack<int> stk;
