@@ -19,7 +19,7 @@ int robbing(const std::vector<int> &arr)
         return 0;
     std::vector<int> dp; //坐标【0，1，2，3，4，5】
     // dp[0] = 0;
-    // dp[1] = arr[0]; 初始时刻，dp是空指针，capacity=size=0;push_back可以不断的申请内存
+    // dp[1] = arr[0]; 初始时刻，dp是空指针，capacity=size=0;push_back可以不断的申请内存.
     dp.push_back(0);
     dp.push_back(arr[0]);
     int len = arr.size();
