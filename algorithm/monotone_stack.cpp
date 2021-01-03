@@ -1,4 +1,4 @@
-// monotone stack
+// 单调栈
 
 #include <iostream>
 #include <array>
