@@ -26,7 +26,7 @@ void mono_stack(std::array<int, 10> const &arr, std::array<int, 10> &res)
     for (int i = arr.size() - 1; i >= 0; i--) //遍历数组元素
     {
         while (!stk.empty() && arr[i] >= arr[stk.top()])
-        //比较数组当前元素和栈顶索引对应数据大小，如果前元素较大，把栈顶元素弹出，直到栈为空或者当前元素小于栈顶缩影值对应的元素
+        //比较数组当前元素和栈顶索引对应数据大小，如果前元素较大，把栈顶元素弹出，直到栈为空或者当前元素小于栈顶缩影值对应的元素.
         {
             stk.pop();
         }
