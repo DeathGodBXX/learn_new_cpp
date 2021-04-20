@@ -5,7 +5,8 @@
     "array": "cpp",
     "algorithm": "cpp",
     "any": "cpp",
-    "thread": "cpp"
+    "thread": "cpp",
+    "cstdio": "cpp"
   },
   "terminal.integrated.shell.windows": "powershell.exe"
 }
