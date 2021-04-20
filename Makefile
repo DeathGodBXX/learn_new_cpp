@@ -1,15 +1,16 @@
-PWD = /home/deathgod/SourceCode/CPP/
+PWD = E://CPP_LEETCODE
 C = clang
 CXX = clang++
 SOURCE_CPP = main.cpp
-TARGET = main.o
-PARAMS = -std=c++2a
+TARGET = main.exe
+PARAMS = -g  -Wall -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c++2a 
+    
 
 touch:
 	touch main.cpp
 
 check:
-	valgrind --tool=memcheck --leak-check=yes --show-reachable=yes ./main.o
+	valgrind --tool=memcheck --leak-check=yes --show-reachable=yes ./main.exe
 
 compile:	
 	$(CXX) $(SOURCE_CPP) -o $(TARGET) $(PARAMS)

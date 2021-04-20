@@ -1,16 +1,42 @@
 {
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang++",
-            "cStandard": "c17",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "clang-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\ssp",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+        "E:\\mingw64\\LLVM\\include",
+        "E:\\mingw64\\x86_64-w64-mingw32\\include",
+        "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        // "_UNICODE",
+        "__GNUC__=7",
+        "__cdecl=__attribute__((__cdecl__))"
+      ],
+      "intelliSenseMode": "clang-x64",
+      // "compilerPath": "E:\\mingw64\\bin\\g++.exe",
+      "compilerPath": "E:\\mingw64\\LLVM\\bin\\clang++.exe",
+      "cStandard": "c18",
+      "cppStandard": "c++20",
+      "browse": {
+        "path": [
+          "E:\\mingw64\\x86_64-w64-mingw32\\include",
+          "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+          "E:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+          "E:\\mingw64\\LLVM\\include\\*",
+          "${workspaceRoot}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
 }

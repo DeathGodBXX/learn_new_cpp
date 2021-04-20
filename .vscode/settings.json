@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "array": "cpp",
+    "algorithm": "cpp",
+    "any": "cpp",
+    "thread": "cpp"
+  },
+  "terminal.integrated.shell.windows": "powershell.exe"
+}
