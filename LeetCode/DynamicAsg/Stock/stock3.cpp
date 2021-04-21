@@ -1,7 +1,12 @@
+//最多完成2笔交易，获得最大利润
+//对比只完成1笔交易，当时只是存在已购买，已售出；
+//现在完成两笔交易，存在4中状态--购买1，售出1，购买2，售出2
+
 #include <algorithm>
 #include <vector>
 using std::max;
 using std::vector;
+
 class Solution
 {
 public:

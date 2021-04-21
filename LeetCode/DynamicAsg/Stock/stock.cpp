@@ -1,6 +1,8 @@
+//只完成一笔交易获得的最大利润
+//minvalue存储已购买的状态，maxprofit表示已售出，获得的最大利润
+
 #include <vector>
 #include <algorithm>
-
 using std::max;
 using std::min;
 using std::vector;
