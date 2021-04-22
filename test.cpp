@@ -25,4 +25,7 @@ int main()
 
     vector<int> vec(6);
     cout << vec.size() << endl;
+    for (int &i : vec)
+        cout << i << "\t";
+    cout << endl;
 }
