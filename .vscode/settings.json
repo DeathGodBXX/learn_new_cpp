@@ -60,7 +60,11 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "ios": "cpp",
+    "xmemory0": "cpp",
+    "xstring": "cpp",
+    "xtree": "cpp"
   },
   "terminal.integrated.shell.windows": "powershell.exe"
 }
