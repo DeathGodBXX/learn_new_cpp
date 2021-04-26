@@ -45,6 +45,7 @@ public:
         //可以认为是pathSum遍历节点，pathAllPart处理节点
         if (root == nullptr)
             return 0;
+        //不做targetSum的修改，每次都是以当前节点和左右子树作为开始结点，向下搜寻。
         pathAllPart(root, targetSum);    //当前节点一直向下搜寻
         pathSum(root->left, targetSum);  //当前左节点作为起始节点
         pathSum(root->right, targetSum); //当前右节点作为起始节点
