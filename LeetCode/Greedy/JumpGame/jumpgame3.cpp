@@ -1,4 +1,5 @@
 //从起始点start，跳到某一个0处，为真，否则为假。
+//没有0为假的，有0跳不到也是假的，否则为真
 #include <../header.h>
 
 class Solution
