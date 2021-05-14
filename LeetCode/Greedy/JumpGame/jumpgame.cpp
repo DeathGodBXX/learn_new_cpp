@@ -1,4 +1,4 @@
-#include <header.h>
+#include <../header.h>
 
 //method1:too slow algorithm
 // class Solution
