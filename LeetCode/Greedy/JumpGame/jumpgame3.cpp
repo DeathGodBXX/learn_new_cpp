@@ -6,11 +6,9 @@ class Solution
 public:
     bool canReach(vector<int> &arr, int start)
     {
-
         vector<int>::iterator it = find(arr.begin(), arr.end(), 0);
         if (it == arr.end())
             return false;
-
         int n = arr.size();
         vector<bool> flag(n, false);
         stack<int> st;
