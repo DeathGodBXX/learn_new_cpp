@@ -8,12 +8,15 @@
 #include <iostream>
 #include <stack>
 #include <queue>
+#include <deque>
 using std::array;
 using std::cout;
+using std::deque;
 using std::endl;
 using std::map;
 using std::max;
 using std::min;
+using std::pair;
 using std::queue;
 using std::set;
 using std::stack;
