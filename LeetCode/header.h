@@ -9,6 +9,8 @@
 #include <stack>
 #include <queue>
 #include <deque>
+#include <string>
+
 using std::array;
 using std::cout;
 using std::deque;
@@ -20,6 +22,7 @@ using std::pair;
 using std::queue;
 using std::set;
 using std::stack;
+using std::string;
 using std::unordered_map;
 using std::unordered_set;
 using std::vector;
