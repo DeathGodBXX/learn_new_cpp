@@ -1,13 +1,7 @@
-#include <iostream>
-#include <map>
-#include <string>
-#include <vector>
-using std::cout;
-using std::endl;
-using std::map;
-using std::string;
-using std::vector;
+/*同样是解决maxremoval的问题，但是改用一个state数组保存是否删除了当前字符*/
+/* 下一步改用hashmap存储当前字符，用于后续查找方便,而不用频繁修改state vector的操作*/
 
+#include "header.h"
 class Solution
 {
 public:
@@ -24,12 +18,6 @@ public:
         {
             for (int i = head; i <= half; i++)
                 state[removable[i]] = 0;
-
-            cout << s << "\t" << p << "\t";
-            for (int i = 0; i < n; i++)
-                cout << state[i] << "  ";
-            cout << endl;
-
             if (!checkIsSequence(s, p, state))
             {
                 for (int i = head; i <= half; i++)
@@ -57,7 +45,8 @@ public:
         int i = 0;
         for (char ch : p)
         {
-            while (i < n && ((state[i] == 1 && s[i] != ch) || state[i] == 0))
+            //加括号，否则会有warning
+            while (i < n && ((state[i] == 1 && s[i] != ch) || (state[i] == 0)))
                 i++;
             //说明p未匹配完
             if (i >= n)
@@ -67,13 +56,3 @@ public:
         return true;
     }
 };
-
-int main()
-{
-
-    vector<int> num = {3, 1, 0};
-    string s = "abcabc";
-    string p = "ab";
-    Solution solu;
-    cout << solu.maximumRemovals(s, p, num) << endl;
-}

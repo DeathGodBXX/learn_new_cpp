@@ -1,9 +1,9 @@
 PWD = E://CPP_LEETCODE
 C = clang
 CXX = clang++
-SOURCE_CPP = test.cpp
+SOURCE_CPP = main.cpp
 TARGET = main.exe
-PARAMS = -g  -Wall -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c++14
+PARAMS = -g  -Wall -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c++17
     
 
 touch:
