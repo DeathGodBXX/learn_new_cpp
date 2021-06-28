@@ -1,5 +1,6 @@
 /*
 给定一个removal数组，p是s的子序列，最多删除removal的前k个下标，s仍然为p的子序列
+单次删除单次匹配，会超时
 */
 #include "header.h"
 class Solution
